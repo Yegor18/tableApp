@@ -1,0 +1,93 @@
+body{
+    width: 100%;
+}
+
+table{
+    margin: 30px 0 0 30px;
+    border-spacing: 0;
+    width: 90%;
+}
+
+td{
+    border: 3px solid black;
+    width: 100%; 
+    overflow:hidden;
+}
+
+td div{
+  margin: -10em;
+  padding: 10em;
+  display:inline-block;
+  width:100%;
+  text-align:center;
+}
+
+.info{
+  display: inline-block;
+  margin: 20px 0 0 30px;
+  border:black 3px solid;
+  width :90%;
+  min-height: 60px;
+  background-color: burlywood;
+}
+
+.eleminfo{
+  display: inline-block;
+  margin: 20px;
+}
+
+.eleminfo div{
+  text-align: center;
+  margin-top:10px;
+  background-color:yellow;
+}
+
+.filsel{
+  margin: 20px 0 0 10px;
+}
+
+button#downDat{
+    display: block;
+    margin:30px auto 0 auto;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+}
+
+.activepage{
+  color:red;
+  
+}
+
+.containersel{
+  text-align: center;
+}
+
+.selpage{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
+.loader {
+    top:10px;
+    left: 50%;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    border: 10px solid;
+    border-color: rgba(51, 122, 183, 0.15) rgba(51, 122, 183, 0.25) rgba(51, 122, 183, 0.35) rgba(51, 122, 183, 0.5);
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
